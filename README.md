@@ -25,4 +25,4 @@ https://github.com/kanekoNK/mypkg/blob/main/scripts/log.csv
  
 ---
 ## 実際に動かした動画
-https://youtu.be/hMVFuafjlzk
+https://youtu.be/7BMsk3zoBEU

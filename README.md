@@ -3,7 +3,7 @@
 第10回で作成したROSのパッケージをベースに、オリジナリティーある改造をし、GitHubに置く
 ---
 
-##リポジトリの概要
+## リポジトリの概要
 
 ROSのtopic通信を利用し、publishからデータを送信(インターネットの回線と想定)、subscriberで想定したデータ量になるまで受信する(特定のアプリダウンロードをする想定)というプログラムを作成しました。
 
@@ -37,20 +37,20 @@ https://github.com/kanekoNK/mypkg/blob/main/scripts/sub.py
  * データを可視化させるための文字列を入力したCSVファイル
 https://github.com/kanekoNK/mypkg/blob/main/scripts/log.csv
 ---
-##動作環境
+## 動作環境
 Ubuntu 18.04 LTS
 
 ---
-##デモ動画のリンク
+## デモ動画のリンク
 https://youtu.be/7BMsk3zoBEU
 
 ---
-##インストール方法
+## インストール方法
  * 自身のcatkin_ws内のsrcに移動
  
  `git cloan https://github.com/kanekoNK/mypkg.git`
  
-##使用方法 
+## 使用方法 
  
  `cd  ~/catkin_ws/src/mypkg`
  * 端末１
@@ -60,7 +60,7 @@ https://youtu.be/7BMsk3zoBEU
  * 端末３　
  `rosrun mypkg sub.py`
 ---
-##ライセンス
+## ライセンス
  * BSD
 
 ---

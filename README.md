@@ -18,8 +18,7 @@ ROSのtopic通信を利用し、publishからデータを送信(インターネ�
 0~5の数字をランダムで20msごとにtopic通信で送信するプログラム
 
 ・sub.py :
-pub.pyから数値を受け取り、受け取った数値合計が500になるまで受け取りをループさせる
-ダウンロードバーの表示、残りダウンロード時間の表示、回線速度の表示を行う
+pub.pyから数値を受け取り、受け取った数値合計が500になるまで受け取りをループさせる　　ダウンロードバーの表示、残りダウンロード時間の表示、回線速度の表示を行う
 
 `CMakeLists.txt`
 パッケージのMakeFile
@@ -49,7 +48,7 @@ https://youtu.be/7BMsk3zoBEU
 ## インストール方法
  * 自身のcatkin_ws内のsrcに移動
  
- `git cloan https://github.com/kanekoNK/mypkg.git`
+ `git clone https://github.com/kanekoNK/mypkg.git`
  
 ## 使用方法 
  
